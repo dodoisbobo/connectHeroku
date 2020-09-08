@@ -1,0 +1,20 @@
+<table style= "border:1px solid black">
+    <tr>
+        <td style="text-align:center;">Name</td>
+        <td style="text-align:center;">Std above 20</td>
+        <td style="text-align:center;">Std below 20</td>
+            {% for key, value in data.items %}
+                <tr>
+                    <td style="text-align:center;">
+                        {{ key }}
+                    </td>
+                    {% for num in value %}
+                        <td style="text-align:center;">
+                            {{num}}
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tr>
+    </tr>
+</table>
