@@ -25,7 +25,7 @@ SECRET_KEY = 'xbwtub2o!+&hu!s)6=nbrdrwi&%eeqid4r8(d2(j6_!o^@^nh-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dodo-fs1.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
 
 
 # Application definition
